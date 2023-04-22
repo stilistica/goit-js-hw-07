@@ -15,7 +15,7 @@ function createGalleryMarkup(gallery) {
 		<img src="${preview}" alt="${description}" data-source="${original}" class="gallery__image" />
 		</a>
 		</li>
-		`;
+		`
 	}).join("");
 } 
 
