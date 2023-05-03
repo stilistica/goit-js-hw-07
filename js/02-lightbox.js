@@ -20,13 +20,12 @@ function createGalleryMarkup(gallery) {
 	}).join("");
 } 
 
-const options = {
+
+let lightbox = new SimpleLightbox('.gallery a', {
 	captionsData: 'alt',
 	captionPosition: 'bottom',
   captionDelay: 250,
-}; 
-
-let lightbox = new SimpleLightbox('.gallery a', options);
+});
 
 
 console.log(galleryItems);
